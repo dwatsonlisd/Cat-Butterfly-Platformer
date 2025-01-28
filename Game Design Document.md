@@ -32,9 +32,14 @@ Section 3: Mechanics
         What direction do the levels go? Up? Right? some combination?
     Model of the Universe:
         I imagine the physics of the world being similar to other platformers with exaggerated physics -- ability to jump higher than normal, climb up the sides of walls, double-jump, etc.
-    Character Actions:
+    Player Actions:
         Movement:
             walk and run -- I imagine there being a difference between walking and running, apart from speed
                 - The first difference would be the ability to stop; walking should allow the player to stop faster, whereas running would carry momentum and reuqire more distance to stop.
                 - The second difference would be the effect on jumping -- running should allow the player to jump farther than walking.
-                - I'm not sure about this part, but I imagine that walking and running might also affect how different enemies respond
+                - I'm not sure about this part, but I imagine that walking and running might also affect how different enemies respond. For example, some enemies might run away if the player is running towards them, while others might only notice the player if they're running but not if they're walking.
+            Some basic movement brainstorming:
+                left/right
+                    walk - a basic stroll; legs go in a 1, 2, 3, 4 pattern with left-front/rear, then right-front/rear: lf, lr, rf, rr
+                    trot - a faster walk; lf/lr then rf/rr
+                    run - a gallop
