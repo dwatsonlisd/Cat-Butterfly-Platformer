@@ -2,7 +2,7 @@ Cat-Butterfly Platformer
 
 Tag line:
 
-Last updated: 2025-01-24
+Last updated: 2025-01-28
 
 Section 1: Game Overview
     Purpose:
@@ -42,4 +42,36 @@ Section 3: Mechanics
                 left/right
                     walk - a basic stroll; legs go in a 1, 2, 3, 4 pattern with left-front/rear, then right-front/rear: lf, lr, rf, rr
                     trot - a faster walk; lf/lr then rf/rr
-                    run - a gallop
+                    run - a gallop -- back legs propel forward; front legs land one-at-a-time
+                jumps
+                    leap - reaches higher platforms in one smooth motion; back legs land *before* front legs. Can only be done from a walk
+                    a running jump - leaps farther left or right but not as high
+                crouch
+                    gets down low - hide behind objects/grass - could add power to a pounce
+                climb
+                    cats can climb some surfaces (wood, carpet, etc) but not others
+                    cats can also hang from a ledge to pull themselves up (for example, if they almost miss a jump) but only for a short time before they fall
+
+        Actions:
+            swipe - basic attack -- uses claws
+            bat - pushes/shoves things without claws -- could be made stronger when done from a run
+            pounce - captures an item or enemy; stronger from a crouch; can be powered up by a butt wiggle
+
+            Combos:
+                These combos will make their respective actions stronger or provide other benefits, such as stunning :
+                    - pounce + swipe
+                    - pounce + bat
+                    - run + bat
+                    - crouch + pounce
+                    - crouch + pounce + bat/swipe
+                    - run + leap
+                    - walk + jump
+
+        Butterfly helpers:
+            Each of these comes to aid the cats in their journey. At the moment, I imagine them giving the cats specific benefits, such as:
+                - monarch butterfly - strength
+                - white butterfly - dodge or speed
+                - yellow butterfly - health or defense
+            These might be a bit too basic, but it could work in conjunction with the story. For example, the butterflies might show up at specific moments to help, can be instrumental in unlocking new levels, etc.
+                - Although these "power up" things *could* be something else -- maybe its really a matter of visual design and aesthetics rather than the power-up itself that would make it special; some graphical fun that looks cool.
+            Also, maybe the butterflies are "unlocked" at certain points and then their help is time limited and needs to be recharged after being used.
