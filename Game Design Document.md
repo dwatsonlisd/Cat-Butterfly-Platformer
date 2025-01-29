@@ -2,7 +2,7 @@ Cat-Butterfly Platformer
 
 Tag line:
 
-Last updated: 2025-01-28
+Last updated: 2025-01-29
 
 Section 1: Game Overview
     Purpose:
@@ -67,11 +67,29 @@ Section 3: Mechanics
                     - run + leap
                     - walk + jump
 
-        Butterfly helpers:
-            Each of these comes to aid the cats in their journey. At the moment, I imagine them giving the cats specific benefits, such as:
-                - monarch butterfly - strength
-                - white butterfly - dodge or speed
-                - yellow butterfly - health or defense
-            These might be a bit too basic, but it could work in conjunction with the story. For example, the butterflies might show up at specific moments to help, can be instrumental in unlocking new levels, etc.
-                - Although these "power up" things *could* be something else -- maybe its really a matter of visual design and aesthetics rather than the power-up itself that would make it special; some graphical fun that looks cool.
-            Also, maybe the butterflies are "unlocked" at certain points and then their help is time limited and needs to be recharged after being used.
+    Butterfly helpers:
+        Each of these comes to aid the cats in their journey. At the moment, I imagine them giving the cats specific benefits, such as:
+            - monarch butterfly - strength
+            - white butterfly - dodge or speed
+            - yellow butterfly - health or defense
+        These might be a bit too basic, but it could work in conjunction with the story. For example, the butterflies might show up at specific moments to help, can be instrumental in unlocking new levels, etc.
+            - Although these "power up" things *could* be something else -- maybe its really a matter of visual design and aesthetics rather than the power-up itself that would make it special; some graphical fun that looks cool.
+        Also, maybe the butterflies are "unlocked" at certain points and then their help is time limited and needs to be recharged after being used.
+
+    Screen Flow
+        Start Screen: The game will start on a title/start screen that includes the following buttons:
+            - New Game
+            - Continue
+            - Options
+            - Exit
+            
+        New Game
+            Player chooses a character; this might change if I decide to allow the player to change characters mid-level or something like that, but even then, I might have the player choose a specific cat to start the game, even if they can switch later or mid-level.
+
+            Level Start
+                The player will see a level start screen. This could include a title/location information for each level as well as maybe a map of the overall world, showing how far the player has progressed.
+
+        - I imagine that the player can move freely through a level without any screen transitions
+
+        Game Over:
+            At this point, I am unsure if the game will have a hard "Game Over" screen or anything like that. Because I want the game to not be too intense and more cozy, I think it will basically have infinite continues.
