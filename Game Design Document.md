@@ -77,19 +77,27 @@ Section 3: Mechanics
         Also, maybe the butterflies are "unlocked" at certain points and then their help is time limited and needs to be recharged after being used.
 
     Screen Flow
-        Start Screen: The game will start on a title/start screen that includes the following buttons:
-            - New Game
-            - Continue
-            - Options
-            - Exit
+        Start Screen:
+            The game will start on a title/start screen that includes the following buttons:
+                - New Game
+                - Continue
+                - Options
+                - Exit
             
-        New Game
+        New Game:
             Player chooses a character; this might change if I decide to allow the player to change characters mid-level or something like that, but even then, I might have the player choose a specific cat to start the game, even if they can switch later or mid-level.
 
             Level Start
                 The player will see a level start screen. This could include a title/location information for each level as well as maybe a map of the overall world, showing how far the player has progressed.
 
-        - I imagine that the player can move freely through a level without any screen transitions
+        Gameplay Screen:
+            I imagine that the player can move freely through a level without any screen transitions.
+        
+        Pause Screen:
+            - Continue
+            - Options
+            - Go to Title Screen
+            - Exit Game
 
         Game Over:
             At this point, I am unsure if the game will have a hard "Game Over" screen or anything like that. Because I want the game to not be too intense and more cozy, I think it will basically have infinite continues.
