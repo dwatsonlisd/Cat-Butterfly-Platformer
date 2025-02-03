@@ -101,3 +101,9 @@ Section 3: Mechanics
 
         Game Over:
             At this point, I am unsure if the game will have a hard "Game Over" screen or anything like that. Because I want the game to not be too intense and more cozy, I think it will basically have infinite continues.
+            
+        Replaying and Saving:
+            At this point, I anticipate having specific checkpoints in each level (at a minimum, a single checkpoint in the middle of a level) as well as a hard save at the end of each level. I am unsure whether the player will be able to save at any point.
+
+Section:Story and narrative
+    
